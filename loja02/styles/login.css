@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #f0eff0;
+    background-color: #e0d6d6;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,17 +16,13 @@ body{
     padding: 20px;
     min-height: 100vh;
 }
-.w50{
-    width: 50%;
-    float: left;
-    padding-right: 15px;
-}
+
 .box{
     display: flex;
     width: 930px;
 }
 .img-box{
-    background-color: #ffffff;
+    background-color: #afa7a7;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -36,7 +32,7 @@ body{
     width: 100%;
 }
 .form-box{
-    background-color: #ffffff;
+    background-color: #afa7a7;
     backdrop-filter: blur(40px);
     padding: 30px 40px;
     width: 100%;
