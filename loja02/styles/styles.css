@@ -1,0 +1,41 @@
+:root{
+   --azul:#0059ff;
+   --verde:#398618;
+   --rosa: #c05885;
+   --laranja:#F4A623;
+   --preto:#aaa6a6;
+   --branco:#FFFFFF;
+}
+
+header,footer{
+   background-color: rgb(201, 194, 194);
+}
+
+.card,.card img{
+   border-radius: 0%;
+}
+
+.card{
+   padding: 0.5rem;
+   border: var(--preto) 1px solid;
+}
+
+.card button{
+   background-color: var(--rosa);
+   color:black;
+   border: none;
+   border-radius: 0%;
+}
+
+.card button:hover{
+   background-color: #c05885;
+}
+
+.card button:active{
+   background-color: var(--branco)!important;
+   color: var(--rosa)!important;
+}
+
+input{
+   border: 1px solid black !important;
+}
