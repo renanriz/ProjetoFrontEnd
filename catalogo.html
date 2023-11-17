@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>By Beauty</title>
+   <link rel="shortcut icon" href="images/logo/logoWhite.svg" type="image/x-icon">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="loja02/styles/catalogo.css">
+   <link rel="stylesheet" href="loja02/styles/styles.css">
+</head>
+
+<header>
+   <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo/logoWithName.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Catálogo de Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre Nós</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="botaoTema">
+                <label class="form-check-label" for="botaoTema">Tema : <span id="temaAtual">Claro</span></label>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<main>
+   <div class="w-100 m-5 mx-auto">
+     <section id="carouselSection" class="container-fluid mx-0 my-2 p-0">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+              <img src="loja02/images/propaganda shein 8.jfif" class="img-fluid d-md-none w-100" alt="">
+              <img src="loja02/images/propaganda shein 8.jfif" class="img-fluid d-none d-md-block d-xl-none w-100" alt="">
+               <img src="loja02/images/propaganda shein 8.jfif" class="img-fluid d-none d-md-none d-xl-block w-100" alt="border collie na praia">
+             </div>
+             <div class="carousel-item">
+               <img src="loja02/images/propaganda shein 9.jfif" class="img-fluid d-md-none w-100" alt="vira lata">
+               <img src="loja02/images/propaganda shein 9.jfif" class="img-fluid d-none d-md-block d-xl-none w-100" alt="vira lata">
+               <img src="loja02/images/propaganda shein 9.jfif" class="img-fluid d-none d-md-none d-xl-block w-100" alt="vira lata">
+             </div>
+             <div class="carousel-item">
+               <img src="loja02/images/propaganda shein 1.jfif" class="img-fluid d-md-none w-100" alt="border collie na natureza">
+               <img src="loja02/images/propaganda shein 1.jfif" class="img-fluid d-none d-md-block d-xl-none w-100" alt="border collie na natureza">
+               <img src="loja02/images/propaganda shein 1.jfif" class="img-fluid d-none d-md-none d-xl-block w-100" alt="border collie na natureza">
+             </div>
+           </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Anterior</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Próximo</span>
+           </button>
+         </div>
+     </section>
+<main>
+   <h1>Em Alta</h1>
+   <section id="sectionWallpapers">
+      <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 1.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(0, 255, 76);">R$50,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#umModal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 2.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$30,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um2Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 3.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$50,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um3Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 4.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$35,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um4Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 5.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$25,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um5Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 6.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$30,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um6Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 7.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$20,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um7Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 8.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$30,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um8Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 9.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$20,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um9Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 10.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$25,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um10Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 11.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$25,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um11Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 12.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$30,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um12Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 13.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$30,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um13Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 14.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$15,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um14Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 15.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$15,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um15Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 16.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$30,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um16Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 17.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$30,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um17Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 18.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$60,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um18Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 19.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$90,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um19Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 20.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$120,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um20Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 21.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$30,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um21Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 22.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$30,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um22Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 23.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$20,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um23Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 24.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$25,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um24Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 25.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$25,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um25Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 26.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$30,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um26Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 27.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$15,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um27Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 28.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$30,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um28Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 29.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$130,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um29Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 30.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$50,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um30Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 31.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$45,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um31Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 32.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$55,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um32Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 33.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$30,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um33Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 34.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$25,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um34Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+        <div class="wallpapers">
+         <div class="itemImagem position-relative">
+            <img src="loja02/images/item shein 35.jfif" alt="">
+            <div class="position-absolute bottom-0 d-flex flex-row-reverse">
+               <h4 style="color: rgb(217, 255, 0);">R$35,00</h4>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#um35Modal">
+                     Comprar
+                   </button>
+            </div>  
+         </div>
+         <div class="itemDescrição">
+         </div>
+        </div>
+
+   </section>
+ </main>
+
+ <footer class="text-center py-2">
+   <h4>fale conosco : (61) 98126-3360</h4>
+</footer>
+</div>
+
+<div class="modal fade" id="umModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Moletom</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$50,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um2Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Calça Esportiva</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$30,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um3Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Vestido</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$50,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um4Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Blusa</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$35,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um5Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Maiô</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$25,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um6Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Calça Leg Esportiva Feminina</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$30,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um7Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Mini Saia Preta</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$20,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um8Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Cojunto Rosa</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$30,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um9Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Shorts Brancos</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$20,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um10Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Mini Saia Bege</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$25,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um11Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Camisa Estampada</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$25,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um12Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Suéter Preto</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$30,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um13Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Camiseta Blessed Preta</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$30,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um14Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Short Jeans</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$15,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um15Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Short Leg Esportivo Preto</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$15,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um16Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Vestido Colado Tomara Que Caia Preto</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$30,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um17Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Camiseta USA Branca</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$30,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um18Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Bolsa Branca Com Dourado</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$60,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um19Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Relógio Dourado</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$90,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um20Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Sandália Rosê Com Dourado</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$120,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um21Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Biquíni Marrom</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$30,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um22Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Cojunto Calça e Top Esportivos</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$30,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um23Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Casaco Esportivo com Capuz Preto</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$20,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um24Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Maiô Preto e Branco</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$25,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um25Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Top Ondulado Bege</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$25,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um26Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Conjunto Top e Calça Branca</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$30,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um27Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Camiseta Preta Básica</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$15,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um28Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Camiseta Gola Polo Branca</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$30,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um29Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Tênis Esportivo Preto com Branco</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$130,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um30Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Jaqueta de Couro Preta</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$50,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um31Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Vestido de Costa Aberta Branco</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$45,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um32Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Vestido de Festa Vinho</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$55,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um33Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Camiseta Social Preta</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$30,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um34Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Camiseta Básica Vermelha</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$25,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="um35Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">Vestido de Costa Semi Aberta Colado Preto</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <img class="w-100" src="images/products/productImage.png" alt="">
+         <h3 style="color: var(--verde);">R$35,00</h3>
+         <p style="color: var(--preto);"></p>
+         <label for="quantidade">Quantidade do produto</label>
+         <input type="number" name="" id="quantidade">
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+         <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+       </div>
+     </div>
+   </div>
+ </div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>

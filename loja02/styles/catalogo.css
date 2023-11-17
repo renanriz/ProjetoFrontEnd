@@ -1,0 +1,59 @@
+main{
+   width: 100%;
+   margin: 20px 0px;
+}
+
+h1{
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(0, 0, 0);
+}
+
+#sectionWallpapers{
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   /*configuração padrão: topo, esquerda e em coluna*/
+   display: flex; /* muda a maneira de mostrar no navegador*/
+   /* row_ linha*/
+   /* column- coluna*/
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+} 
+
+.wallpapers{
+   width: 200px;
+   height: 300px;
+   margin: 20px;
+   background-color: rgb(209, 218, 213);
+   padding: 10px;
+   border-radius: 5px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.itemImagem{
+   width: 100%;
+   height: 100%;
+}
+
+.itemImagem img{
+   width: 100%;
+   height: 100%;
+}
+
+.itemDescricao{
+   width: 100%;
+   height: 50%;
+   background-color: rgb(136, 55, 55);
+}
+
+.itemDescricao h3{
+   margin: 10px 0px;
+   color: rgb(80, 17, 17);
+}
+
+.itemDescricao p{
+   color: rgb(255, 255, 255);
+   margin: 20px 0px;
+}
